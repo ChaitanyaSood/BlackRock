@@ -3,8 +3,8 @@ import pandas as pd
 import pickle
 
 # Load the saved model and scaler
-model_filename = "F:/prediction_final/best_catboost_model.pkl"
-scaler_filename = "F:/prediction_final/scaler (1).pkl"
+model_filename = "best_catboost_model.pkl"
+scaler_filename = "scaler (1).pkl"
 
 
 with open(model_filename, 'rb') as model_file:
